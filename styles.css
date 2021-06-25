@@ -1,0 +1,163 @@
+
+body {
+  
+}
+.remark-slide-number {
+  display: none;
+}
+.remark-slide-content {
+  font-weight: 500;
+  font-size: 28px;
+  padding: 1em 2em;
+  background-color: white;
+  background-size: cover;
+  color: black;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 500;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+.center h1, .center h2{
+  width: 80%;
+  margin: auto;
+}
+p{
+  margin: 0;
+}
+
+a{
+  color: blue;
+}
+
+.remark-slide-content  h1{
+  font-size: 4em;
+  line-height: 0.9;
+}
+.remark-slide-content  h2{
+  font-size: 3em;
+  line-heigh t: 1.0;
+}
+.remark-slide-content  h3{
+  font-size: 1.8em;
+  line-height: 1.2;
+}
+.remark-slide-content h4{
+  font-style: italic;
+}
+
+.caption{
+  text-align: right;
+  margin-top: 1rem;
+  display: block;
+  font-size: .7em;
+}
+
+#low-tech-magazine{
+  font-weight: normal;
+}
+
+#low-tech-solutions{
+  color:#162dab;
+}
+#obsolete-technology{
+  color:#006951
+}
+#high-tech-problems{
+  color:#d11305
+}
+
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+.section{
+  background: black;
+  color: white; 
+}
+.mix {
+  background-blend-mode: hard-light;
+  background-color: #162dab;
+}
+img{
+ margin: auto;
+ display: block;
+ max-height: 600px;
+}
+ul.cols{
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+ul li{
+  margin-right: 1rem;
+}
+ul li:last-child{
+  margin-right: 0;
+}
+
+#the-team+.cols li{
+  flex: none;
+  width: 25%;
+}
+
+.rangebox{
+  position: relative;
+}
+.line{
+  position: absolute;
+  top: 50%;
+  height: 2px;
+  margin: 0 25px;
+  border-top: 5px solid blue;
+}
+.line::after{
+  content: ">";
+  font-size: 50px;
+  color: blue;
+  font-weight: bold;
+  position: absolute;
+  right: -12px;
+  top: -35px;
+}
+
+.wave{
+ width: 60%;
+ margin-top: 2em;
+}
+
+
+.path{
+  fill: none;
+  stroke: black;
+  stroke-width: 2px;
+  stroke-miterlimit: 10;
+}
+
+#device{
+  display: flex;
+  margin: auto;
+  width: 500px;
+}
+#device div{
+  font-size: 200px;
+}
+
+#person{
+  animation: shrink 2s ease-in alternate infinite;
+}
+
+@keyframes shrink{
+  0%{
+    transform: translate(-210px, -28px) scale(0.05);
+  }
+  10%{
+    transform: translate(-210px, -28px) scale(0.05);
+  }
+  90%{
+    transform: none;
+  }
+  100%{
+    transform: none;
+  }
+  
+}
